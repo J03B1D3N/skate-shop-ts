@@ -31,6 +31,10 @@ export default function Main() {
                         <Route path="/shop/items/decks" element={<Decks/>}/>
                         </Route>
                         <Route path="/shop/items/all/:name" element={<ItemDetail/>}/>
+                        <Route path="/shop/items/bearings/:name" element={<ItemDetail/>}/>
+                        <Route path="/shop/items/decks/:name" element={<ItemDetail/>}/>
+                        <Route path="/shop/items/trucks/:name" element={<ItemDetail/>}/>
+                        <Route path="/shop/items/wheels/:name" element={<ItemDetail/>}/>
                         </Route>    
                     </Route>
                 <Route path="/contacts" element={<Contacts/>}/>
