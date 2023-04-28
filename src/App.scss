@@ -11,10 +11,18 @@
 *::-webkit-scrollbar { 
   display: none;  /* Safari and Chrome */
 }
-
+html{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
 #root {
-  height: 100%;
-  width: 100%;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   background-color: #F6F6F6;
@@ -46,9 +54,9 @@
      }
   }
   .main {
-    width: 100%;
-    min-height: 100%;
-    max-height: fit-content;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
   }
   
   .footer {

@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 $itemSize: 200px;
@@ -13,7 +14,7 @@ $itemSize: 200px;
     padding: 10px 0px;
     font-size: 1.2rem;
     position: sticky;
-    top: 57px;
+    top: 55px;
     a {
         color: white;
         text-decoration: none;
@@ -25,8 +26,7 @@ $itemSize: 200px;
 
 .shop {
     padding:3% 10%;
-    min-height: 100vh;
-    max-height: fit-content;
+    height: min(100%, fit-content);
     width: 100%;
     display: grid;
     overflow: auto;
@@ -43,6 +43,8 @@ $itemSize: 200px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        text-decoration: none;
+        color: black;
         img {
             height: $itemSize;
             width: $itemSize;

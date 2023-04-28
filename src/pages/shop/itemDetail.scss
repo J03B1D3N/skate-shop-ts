@@ -1,0 +1,87 @@
+.itemDetailRoot {
+    flex-grow: 1;
+    margin: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .itemDetail {
+        border: 3px solid rgb(131, 131, 131);
+        height: fit-content;
+        width: fit-content;
+        padding: 25px;
+        
+   
+    .itemDescription {
+        padding: 15px;
+
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: top;
+        
+        .description {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-size: 1.5rem;
+            padding-left: 25px;
+        }
+    }
+    .pictureAndPrice {
+        display: flex;
+        
+        .pricing {
+            margin: 0px 25px;
+            padding: 20px 20px;
+            width: 25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 75px;
+            align-items:flex-start;
+            .title{
+                font-size: 1.5rem;
+                font-weight: 600;
+                text-align: left;
+                margin-top: 5px;
+                border-bottom: 2px solid black;
+            }
+            .reviews {
+                font-size: 1.5rem;
+                border-bottom: 2px solid black;
+                width: 100%;
+            }
+            .price{
+                font-size: 3rem;
+                border-bottom: 2px solid black;
+                width: 100%;
+            }
+            .shipping {
+                font-size: 1.3rem;
+                border-bottom: 2px solid black;
+            }
+            .buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                gap: 10px;
+                .cart{
+                    background-color: rgb(120, 161, 120);
+                }
+                .favorites {
+                    background-color: rgb(200, 200, 131);
+                }
+                button{
+                    width: 100%;
+                    height: 40px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    }
+    
+}
