@@ -1,15 +1,24 @@
 $deleteBtn: 3rem;
-
+.emptyShoppingCart {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
 .shoppingCart {
     flex: 1; 
     display: flex;
     justify-content: center;
     align-items: top;
     padding: 50px;
+    gap: 20px;
     .centered {
         border: 3px solid black;
-        width: 80%;
-        height: fit fit-content;
+        width: 70%;
+        height: fit-content;
         .cartItem {
             border: 3px solid rgb(131, 131, 131);
             padding: 0px 25px;
@@ -27,7 +36,7 @@ $deleteBtn: 3rem;
                     flex-direction: column;
                     justify-content: space-around;
                     .itemName, .price, .quantity {
-                        font-size: 2rem;
+                        font-size: 1.9rem;
                     }
                     .quantity{
                         display: flex;
@@ -72,5 +81,21 @@ $deleteBtn: 3rem;
             }
         }
     }
-
+    .paymentTotal {
+        border: 3px solid black;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0px;
+        gap: 20px;
+        height: fit-content;
+        .title, .price {
+            font-size: 3rem;
+        }
+        button {
+            padding: 10px;
+            font-size: 2rem;
+        }
+    }
 }
