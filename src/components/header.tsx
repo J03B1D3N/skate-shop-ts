@@ -1,6 +1,8 @@
 import {Link} from "react-router-dom";
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
 export default function Header() {
+    const {cartQuantity} = useShoppingCart()
     return (
         <div className="header">
 
@@ -16,7 +18,10 @@ export default function Header() {
                
                     <Link to={"/contacts"}>CONTACTS</Link>
 
+                    <div className="cart">
+                    {cartQuantity() === 0 ? null : <div className="itemCount">{cartQuantity()}</div>}
                     <Link to={"/cart"}>CART</Link>                
+                    </div>
                 
             </div>
 

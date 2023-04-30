@@ -51,6 +51,16 @@ body{
       display: flex;
       justify-content: space-around;
       width: 30%;
+      .cart{
+        display: flex;
+        .itemCount{
+          margin-right: 10px;
+          background-color: red;
+          border-radius: 20px;
+          padding: 0px 5px;
+        }
+      }
+      
      }
   }
   .main {

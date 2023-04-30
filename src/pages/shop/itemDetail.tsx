@@ -1,13 +1,15 @@
 import { useLocation } from "react-router-dom"
 import "./itemDetail.scss"
 import { formatCurrency } from "../../utilities/formatCurrency"
+import { useShoppingCart } from "../../context/ShoppingCartContext"
+
 
 export default function ItemDetail() {
-
+    const {increaseCartQuantity} = useShoppingCart()
     const location = useLocation()
     const item = location.state
     window.scroll(0,0)
-
+   
     return <>
             <div className="itemDetailRoot">
 
@@ -24,7 +26,7 @@ export default function ItemDetail() {
                             Delivery by Thursday, 04.05.2023, if you choose UPS Standard Priority and place your order by Tuesday 16:00.                        
                             </div>
                             <div className="buttons">
-                                <button className="cart">ADD TO SHOPPING CART</button>
+                                <button className="cart" onClick={() =>  increaseCartQuantity(item.id)}>ADD TO SHOPPING CART</button>
                                 <button className="favorites">ADD TO FAVORITES</button>
                             </div>
                         </div>
