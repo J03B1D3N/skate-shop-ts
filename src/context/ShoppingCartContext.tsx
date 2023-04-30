@@ -1,4 +1,6 @@
 import { useContext, createContext, ReactNode, useState } from "react";
+import { useLocalStorage } from "../hooks/useLocalStorage";
+
 
 type ShoppingCartProviderProps = {
     children: ReactNode
@@ -10,6 +12,7 @@ type ShoppingCartContext = {
     decreaseCartQuantity: (id: number) => void
     removeFromCart: (id: number) => void
     cartQuantity: () => number
+    cartItems: any
 }
 
 type CartItem = {
@@ -28,7 +31,9 @@ export function useShoppingCart() {
 
 export function ShoppingCartProvider( {children}: ShoppingCartProviderProps) {
 
-    const [cartItems, setCartItems] = useState<CartItem[]>([])
+    const [cartItems, setCartItems] = useLocalStorage<CartItem[]>("shopping-cart", [])
+
+
 
     function cartQuantity () {
        return cartItems.reduce((quantity, item) => item.quantity + quantity, 0)
@@ -52,6 +57,7 @@ export function ShoppingCartProvider( {children}: ShoppingCartProviderProps) {
                 })
             }
         })
+
     }
 
     function decreaseCartQuantity(id:number) {
@@ -68,17 +74,19 @@ export function ShoppingCartProvider( {children}: ShoppingCartProviderProps) {
                 })
             }
         })
+
     }
 
     function removeFromCart(id:number) {
         setCartItems(currentItems => {
             return currentItems.filter(item => item.id !== id)
         })
+
     }
 
 
 
-    return <ShoppingCartContext.Provider value={{ getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart, cartQuantity}}>
+    return <ShoppingCartContext.Provider value={{ getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart, cartQuantity, cartItems}}>
         {children}
     </ShoppingCartContext.Provider>
 }

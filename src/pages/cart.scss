@@ -1,0 +1,21 @@
+.shoppingCart {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 50px;
+    .centered {
+        border: 3px solid black;
+        width: 80%;
+        height: fit fit-content;
+        .cartItem {
+            border: 3px solid red;
+            padding: 0px 25px;
+            display: flex;
+            img {
+                height: 250px;
+            };
+
+        }
+    }
+}

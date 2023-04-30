@@ -1,7 +1,19 @@
+import { useShoppingCart } from "../context/ShoppingCartContext"
+import items from "../data/items.json"
+import { CartItem } from "../components/CartItem"
+import "./cart.scss"
+
 export default function Cart() {
-    return (
-        <div className="cart">
-            <h1>Bonjour from cart</h1>
+    const {cartItems} = useShoppingCart()
+
+    
+
+    return  <div className="shoppingCart">
+        <div className="centered">
+            {cartItems.map(item => {
+                return CartItem(item)
+            })}
         </div>
-    )
+        </div>
+    
 }
