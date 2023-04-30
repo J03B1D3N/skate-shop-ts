@@ -17,13 +17,19 @@ export function CartItem({id, quantity}:CartItemProps){
 
     return (
         <div className="cartItem">
-            <img src={item.src} alt="images"></img>
-            <div className="cartItemMenu">
-                <div className="itemName">{item.name}</div>
-                <div className="price">{formatCurrency(item.price)}</div>
+            <div className="wrapper">
+                <img src={item.src} alt="images"></img>
+                <div className="cartItemMenu">
+                    <div className="itemName">{item.name}</div>
+                    <div className="price">{formatCurrency(item.price)}</div>
+                    <div className="quantity">
+                        <button className="decrease" onClick={() => decreaseCartQuantity(item.id)}>-</button>
+                        {getItemQuantity(item.id)}
+                        <button className="decrease" onClick={() => increaseCartQuantity(item.id)}>+</button>
+                    </div>
+                </div>
             </div>
-            <div className="quantity"> QUANTITY: {getItemQuantity(item.id)}</div>
-            
+            <div className="deleteItem"><button className="delete" onClick={() => removeFromCart(id)}></button></div>
         </div>
     )
 

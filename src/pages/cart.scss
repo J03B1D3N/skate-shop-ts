@@ -1,3 +1,5 @@
+$deleteBtn: 3rem;
+
 .shoppingCart {
     flex: 1; 
     display: flex;
@@ -9,13 +11,66 @@
         width: 80%;
         height: fit fit-content;
         .cartItem {
-            border: 3px solid red;
+            border: 3px solid rgb(131, 131, 131);
             padding: 0px 25px;
             display: flex;
-            img {
-                height: 250px;
-            };
-
+            margin: 20px;
+            justify-content: space-between;
+            .wrapper{
+                display: flex;
+                gap: 20px;
+                img {
+                    height: 250px;
+                };
+                .cartItemMenu {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .itemName, .price, .quantity {
+                        font-size: 2rem;
+                    }
+                    .quantity{
+                        display: flex;
+                        gap: 25px;
+                        .increase, .decrease {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 3rem;
+                            height: 3rem;
+                            width: 3.5rem;
+                        }
+                    }
+                }
+            }
+            .deleteItem {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .delete {
+                    background-color: rgb(245, 141, 141);
+                    position: relative;
+                    height: $deleteBtn;
+                    width: $deleteBtn;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .delete:before, .delete:after {
+                    content: '';
+                    height: 90%;
+                    width: 20%;
+                    background-color: black;
+                    position: absolute;
+                }
+                .delete:before {
+                    transform: rotate(45deg);
+                }
+                .delete:after {
+                    transform: rotate(-45deg);
+                }
+            }
         }
     }
+
 }

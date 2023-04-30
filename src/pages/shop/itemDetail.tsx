@@ -2,13 +2,17 @@ import { useLocation } from "react-router-dom"
 import "./itemDetail.scss"
 import { formatCurrency } from "../../utilities/formatCurrency"
 import { useShoppingCart } from "../../context/ShoppingCartContext"
+import { useEffect } from "react"
 
 
 export default function ItemDetail() {
     const {increaseCartQuantity} = useShoppingCart()
     const location = useLocation()
     const item = location.state
-    window.scroll(0,0)
+    useEffect(() => {
+        window.scroll(0,0)
+
+    }, [])
    
     return <>
             <div className="itemDetailRoot">
