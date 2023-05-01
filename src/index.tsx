@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='skate-shop-ts/'>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
     </BrowserRouter>
   </React.StrictMode>
