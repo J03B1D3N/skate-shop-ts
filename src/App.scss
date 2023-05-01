@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -25,7 +26,6 @@ body{
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  background-color: #F6F6F6;
   .header {
     background-color: black;
     display: flex;
@@ -51,6 +51,7 @@ body{
       display: flex;
       justify-content: space-around;
       width: 30%;
+
       .cart{
         display: flex;
         .itemCount{
@@ -67,7 +68,73 @@ body{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-  }
+    .homePage {
+      flex: 1;
+      background-image: url("../public/images/JoeBidenTitle.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center;
+      color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-top: 50px;
+      align-items: center;
+      gap: 250px;
+      text-align: center;
+      .title {
+        font-size: 8rem;
+        font-family: 'Luckiest Guy', cursive;
+      }
+      .invitation {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 3rem;
+      }
+      .startShopping {
+        font-size: 3rem;
+        padding: 15px;
+        padding-top: 25px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid black;
+        font-family: 'Luckiest Guy', cursive;
+        transition: 0.5s;
+      }
+      .startShopping:hover {
+        background-color: white;
+        color: orange;
+      }
+    }
+    .contacts {
+      background-image: url("../public/images/Contacts.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center;
+
+      text-align: center;
+      padding: 25px;
+      flex: 1;
+      color: rgb(255, 255, 255);
+      font-size: 2rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items:flex-end;
+      flex-direction: column;
+      gap: 50px;
+      .phone, .adress {
+        p{
+          font-family: 'Luckiest Guy', cursive;
+
+        }
+      }
+      
+    }
+    
+  
+      
+    }
+  
   
   .footer {
     width: 100%;

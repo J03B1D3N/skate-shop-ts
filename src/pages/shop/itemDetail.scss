@@ -1,19 +1,24 @@
 .itemDetailRoot {
     flex-grow: 1;
-    margin: 25px 0px;
+    padding: 25px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../../../public/images/JoeBidenShop.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
     .itemDetail {
         border: 3px solid rgb(131, 131, 131);
         height: fit-content;
         width: fit-content;
         padding: 25px;
-        
+        background-color: #F6F6F6;
+
    
     .itemDescription {
         padding: 15px;
-
         display: flex;
         flex-direction: column;
         align-items:flex-start;

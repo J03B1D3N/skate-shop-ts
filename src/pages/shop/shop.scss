@@ -7,7 +7,7 @@ $itemSize: 200px;
 
 .shopNav {
 
-    background-color: rgb(118, 116, 116);
+    background-color: rgb(234, 117, 74);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -27,6 +27,11 @@ $itemSize: 200px;
 .shop {
     padding:3% 10%;
     height: min(100%, fit-content);
+    background-image: url("../../../public/images/JoeBidenShop.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
     width: 100%;
     display: grid;
     overflow: auto;
@@ -37,6 +42,7 @@ $itemSize: 200px;
     text-align: center;
     .item {
         border: 3px solid rgb(174, 172, 172);
+        background-color: #F6F6F6;
         padding: 15px;
         margin: 20px;
         display: flex;

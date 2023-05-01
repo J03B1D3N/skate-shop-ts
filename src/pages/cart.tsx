@@ -25,8 +25,8 @@ export default function Cart() {
                     <button>CHECKOUT</button>
                 </div>
             </div> : <>
-            <div className="emptyShoppingCart">YOUR SHOPPING CART IS EMPTY!
-            <div className="threat">JOE BIDEN COMMANDS YOU TO GO PUT SOMETING IN THE CART</div></div>
+            <div className="emptyShoppingCart"><p>SHOPPING CART EMPTY</p><p>NO GOOD</p>
+            </div>
             </>}
             
                 
