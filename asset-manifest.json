@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/skate-shop-ts/static/css/main.6d4515ca.css",
-    "main.js": "/skate-shop-ts/static/js/main.8a8d85e7.js",
+    "main.js": "/skate-shop-ts/static/js/main.41253fe9.js",
     "static/media/JoeBidenTitle.webp": "/skate-shop-ts/static/media/JoeBidenTitle.4a549ec6b27c31ca5852.webp",
     "static/media/ShoppingCart.webp": "/skate-shop-ts/static/media/ShoppingCart.2b5e6b736f856dc1fde8.webp",
     "static/media/JoeBidenShop.webp": "/skate-shop-ts/static/media/JoeBidenShop.78c1aecf5afc3e12b868.webp",
     "static/media/Contacts.webp": "/skate-shop-ts/static/media/Contacts.00661adce62b4b4f5e55.webp",
     "index.html": "/skate-shop-ts/index.html",
     "main.6d4515ca.css.map": "/skate-shop-ts/static/css/main.6d4515ca.css.map",
-    "main.8a8d85e7.js.map": "/skate-shop-ts/static/js/main.8a8d85e7.js.map"
+    "main.41253fe9.js.map": "/skate-shop-ts/static/js/main.41253fe9.js.map"
   },
   "entrypoints": [
     "static/css/main.6d4515ca.css",
-    "static/js/main.8a8d85e7.js"
+    "static/js/main.41253fe9.js"
   ]
 }
