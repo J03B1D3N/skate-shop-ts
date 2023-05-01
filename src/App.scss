@@ -37,6 +37,7 @@ body{
     position: sticky;
     top: 0px;
     color: white;
+    padding: 0px 25px;
     a {
       text-decoration: none;
       color: white;
@@ -118,15 +119,22 @@ body{
       color: rgb(255, 255, 255);
       font-size: 2rem;
       display: flex;
-      justify-content: flex-start;
-      align-items:flex-end;
       flex-direction: column;
+      justify-content: center;
+      align-items:flex-end;
       gap: 50px;
       .phone, .adress {
         p{
           font-family: 'Luckiest Guy', cursive;
 
         }
+      }
+      .map {
+        height: 500px;
+        position: absolute;
+        left: 250px;
+        bottom: 100px;
+        border: 5px solid black;
       }
       
     }
