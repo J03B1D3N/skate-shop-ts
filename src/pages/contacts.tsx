@@ -10,6 +10,6 @@ export default function Contacts() {
             <p>1600 Pennsylvania Avenue NW</p>
             <p>Washington, DC 20500</p>
         </div>
-        <img className="map" src="/images/maps.webp" alt="map" />
+        <img className="map" src="./images/maps.webp" alt="map" />
     </div>
 }
