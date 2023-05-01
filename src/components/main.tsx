@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Router, Route, Routes } from "react-router-dom"
 
 
 import Home from "../pages/home.tsx"
@@ -19,28 +19,28 @@ import ItemDetail from "../pages/shop/itemDetail.tsx"
 export default function Main() {
     return (
         <div className="main">
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/shop" element={<Shop/>}>
-                    <Route element={<ShopNav/>}>
-                        <Route element={<Items/>}>
-                        <Route path="/shop/items/all" element={<All/>}/>
-                        <Route path="/shop/items/bearings" element={<Bearings/>}/>
-                        <Route path="/shop/items/trucks" element={<Trucks/>}/>
-                        <Route path="/shop/items/wheels" element={<Wheels/>}/>
-                        <Route path="/shop/items/decks" element={<Decks/>}/>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/shop" element={<Shop/>}>
+                        <Route element={<ShopNav/>}>
+                            <Route element={<Items/>}>
+                            <Route path="/shop/items/all" element={<All/>}/>
+                            <Route path="/shop/items/bearings" element={<Bearings/>}/>
+                            <Route path="/shop/items/trucks" element={<Trucks/>}/>
+                            <Route path="/shop/items/wheels" element={<Wheels/>}/>
+                            <Route path="/shop/items/decks" element={<Decks/>}/>
+                            </Route>
+                            <Route path="/shop/items/all/:name" element={<ItemDetail/>}/>
+                            <Route path="/shop/items/bearings/:name" element={<ItemDetail/>}/>
+                            <Route path="/shop/items/decks/:name" element={<ItemDetail/>}/>
+                            <Route path="/shop/items/trucks/:name" element={<ItemDetail/>}/>
+                            <Route path="/shop/items/wheels/:name" element={<ItemDetail/>}/>
+                            </Route>
                         </Route>
-                        <Route path="/shop/items/all/:name" element={<ItemDetail/>}/>
-                        <Route path="/shop/items/bearings/:name" element={<ItemDetail/>}/>
-                        <Route path="/shop/items/decks/:name" element={<ItemDetail/>}/>
-                        <Route path="/shop/items/trucks/:name" element={<ItemDetail/>}/>
-                        <Route path="/shop/items/wheels/:name" element={<ItemDetail/>}/>
-                        </Route>    
-                    </Route>
-                <Route path="/contacts" element={<Contacts/>}/>
-                <Route path="/cart" element={<Cart/>}/>
+                    <Route path="/contacts" element={<Contacts/>}/>
+                    <Route path="/cart" element={<Cart/>}/>
                 
-            </Routes>
+                </Routes>
         </div>
     )
 }
