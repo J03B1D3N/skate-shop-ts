@@ -1,3 +1,4 @@
+
 [
     {
         "type" : "bearings",
@@ -11,7 +12,7 @@
         "desc5": "without rubber shields for easy cleaning and less friction",
         "desc6": "speed ​​rings and spacers for less friction and parallel ball bearings",
         "contents": "contents: set of 8 Antix Eclipse Ceramic bearings, 4 spacers, 8 speed rings",
-        "src": "/images/148429-0-Antix-EclipseCeramic.webp"
+        "src": "../../images/148429-0-Antix-EclipseCeramic.webp"
     },
     {
         "type" : "bearings",
@@ -23,7 +24,7 @@
         "desc3": "micro-polished steel races",
         "desc4": "light oil lubricant",
         "contents": "contents: 8 GP-B bearings, 8 speed rings, 4 spacers",
-        "src": "/images/139282-0-Independent-GPB.webp"
+        "src": "../../images/139282-0-Independent-GPB.webp"
     },
     {
         "type" : "bearings",
@@ -37,7 +38,7 @@
         "desc5": "precise ball spacing and improved surfaces within the bearing ensure long-lasting durability and speed",
         "desc6": "pre-oiled with a specially developed Slip Cream to protect against corrosion and for even more spin",
         "contents": "contents: 8 x SK8DLX Nights bearings, 4 x spacer, 8 x speedrings",
-        "src": "/images/83544-0-skatedeluxe-NightsABEC7.webp"
+        "src": "../../images/83544-0-skatedeluxe-NightsABEC7.webp"
     },
     {
         "type" : "bearings",
@@ -51,7 +52,7 @@
         "desc5": "pre-oiled with a specially developed Slip Cream to protect against corrosion and for even more spin",
         "desc6": "logo branding on the shields",
         "contents": "contents: set of 8 skatedeluxe Rainbow bearings, 4 spacers, 8 speed rings, metal box",
-        "src": "/images/148427-0-skatedeluxe-Rainbows.webp"
+        "src": "../../images/148427-0-skatedeluxe-Rainbows.webp"
     },
     {
         "type" : "bearings",
@@ -65,7 +66,7 @@
         "desc5": "pre-oiled with a specially developed Slip Cream to protect against corrosion and for even more spin",
         "desc6": "skatedeluxe engraving on the outer ring",
         "contents": "contents: set of 8 skatedeluxe Titaniums bearings, 4 spacers, 8 rubber shields, metal box",
-        "src": "/images/148425-0-skatedeluxe-Titaniums.webp"
+        "src": "../../images/148425-0-skatedeluxe-Titaniums.webp"
     },
     {
         "type" : "deck",
@@ -83,7 +84,7 @@
         "desc3": "7-ply construction",
         "desc4": "artwork by Alcala",
         "desc5": "Madars Apse pro model",
-        "src": "/images/162494-0-Element-xAlcalaMadars8.webp"
+        "src": "../../images/162494-0-Element-xAlcalaMadars8.webp"
     },
     {
         "type" : "deck",
@@ -101,7 +102,7 @@
         "desc3": "7-ply construction",
         "desc4": "artwork by Pontus Alv",
         "desc5": "Roman Gonzalez pro model",
-        "src": "/images/164286-0-Polar-GonzalezSoldier8375.webp"
+        "src": "../../images/164286-0-Polar-GonzalezSoldier8375.webp"
     },
     {
         "type" : "deck",
@@ -119,7 +120,7 @@
         "desc3": "7-ply construction",
         "desc4": "photography by Paul Grund",
         "desc5": "Paul Grund pro model",
-        "src": "/images/164274-0-Polar-GrundNotreDame825.webp"
+        "src": "../../images/164274-0-Polar-GrundNotreDame825.webp"
     },
     {
         "type" : "deck",
@@ -137,7 +138,7 @@
         "desc3": "7-ply construction",
         "desc4": "artwork by Yaia",
         "desc5": "Eric Dressen pro model",
-        "src": "/images/161835-0-SantaCruz-DressenRoseCrossShaped931.webp"
+        "src": "../../images/161835-0-SantaCruz-DressenRoseCrossShaped931.webp"
     },
     {
         "type" : "deck",
@@ -154,7 +155,7 @@
         "desc2": "standard popsicle shape",
         "desc3": "7-ply construction",
         "desc4" : "very stable",
-        "src": "/images/164852-0-WastedParis-Arizona8.webp"
+        "src": "../../images/164852-0-WastedParis-Arizona8.webp"
     },
     {
         "type" : "trucks",
@@ -173,7 +174,7 @@
         "desc5": "oversized axle for a greater bearing performance",
         "desc6": "86A bottom bushing and 91A top bushing for maximum turn performance",
         "desc7": "powder coated",
-        "src": "/images/150197-0-Ace-44Classic575.webp"
+        "src": "../../images/150197-0-Ace-44Classic575.webp"
     },
     {
         "type" : "trucks",
@@ -190,7 +191,7 @@
         "desc3": "No Hang Up Yoke makes grinding easier",
         "desc4": "hollow kingpin and axle made of Chromoly steel reduce weight",
         "desc5": "Pedro Delfino signature truck",
-        "src": "/images/154527-0-Independent-149Stage11StandardDelfinoHollow.webp"
+        "src": "../../images/154527-0-Independent-149Stage11StandardDelfinoHollow.webp"
     },
     {
         "type" : "trucks",
@@ -207,7 +208,7 @@
         "desc3": "improved geometry ensures precise turning, more stability and less wheelbites",
         "desc4": "No Hang Up Yoke makes grinding easier",
         "desc5": "logo print on the hanger",
-        "src": "/images/147560-0-Independent-144Stage11BarStandard.webp"
+        "src": "../../images/147560-0-Independent-144Stage11BarStandard.webp"
     },
     {
         "type" : "trucks",
@@ -224,7 +225,7 @@
         "desc3": "improved geometry ensures precise turning, more stability and less wheelbites",
         "desc4": "inverted Kingpin for better grind clearance",
         "desc5": "Primitive collab",
-        "src": "/images/155684-0-Independent-139Stage11Mid.webp"
+        "src": "../../images/155684-0-Independent-139Stage11Mid.webp"
     },
     {
         "type" : "trucks",
@@ -241,7 +242,7 @@
         "desc3": "inverted kingpin provides more clearance and prevents abrasion of the kingpin",
         "desc4": "hollow kingpin and axle reduce weight",
         "desc5": "Andrew Reynolds signature truck",
-        "src": "/images/147536-0-Independent-149MidReynoldsBlockHollow.webp"
+        "src": "../../images/147536-0-Independent-149MidReynoldsBlockHollow.webp"
     },
     {
         "type" : "wheels",
@@ -258,7 +259,7 @@
         "desc3": "conical shape with wide contact patch for more control",
         "desc4": "contact patch with stoneground finish",
         "desc5": "OJ series",
-        "src": "/images/139674-0-OJWheels-PlainJaneKeyframe.webp"
+        "src": "../../images/139674-0-OJWheels-PlainJaneKeyframe.webp"
     },
     {
         "type" : "wheels",
@@ -275,7 +276,7 @@
         "desc3": "conical shape with wide contact patch for more control",
         "desc4": "contact patch with stoneground finish",
         "desc5": "Barbwire series",
-        "src": "/images/155428-0-skatedeluxe-BarbwireConicalADV.webp"
+        "src": "../../images/155428-0-skatedeluxe-BarbwireConicalADV.webp"
     },
     {
         "type" : "wheels",
@@ -292,7 +293,7 @@
         "desc3": "classic shape - wider all-round profile for more stability",
         "desc4": "medium width contact patch and rounded edges for full control of slides in any situation",
         "desc5": "Can series",
-        "src": "/images/155453-0-skatedeluxe-CanClassicADV.webp"
+        "src": "../../images/155453-0-skatedeluxe-CanClassicADV.webp"
     },
     {
         "type" : "wheels",
@@ -310,7 +311,7 @@
         "desc3": "Hi-Energy Urethane Formula for more speed and control",
         "desc4": "high flatspot resistance",
         "desc5": "Fidelity series",
-        "src": "/images/125407-0-skatedeluxe-FidelitySeries.webp"
+        "src": "../../images/125407-0-skatedeluxe-FidelitySeries.webp"
     },
     {
         "type" : "wheels",
@@ -328,7 +329,7 @@
         "desc3": "conical shape with wide contact patch for more control",
         "desc4": "contact patch with stoneground finish",
         "desc5": "Flame series",
-        "src": "/images/155442-0-skatedeluxe-FlameConicalADV.webp"
+        "src": "../../images/155442-0-skatedeluxe-FlameConicalADV.webp"
     }
 
 
