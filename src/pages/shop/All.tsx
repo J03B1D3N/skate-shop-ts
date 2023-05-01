@@ -9,7 +9,7 @@ export default function All() {
             <>
             { items.map(item => {
                 return <Link to={item.name} state={item} className="item">
-                    <img src={item.src} alt="img"></img>
+                    <img src={"../." + item.src} alt="img"></img>
                     <p className="itemTitle">{item.name}</p>
                          </Link>
         })}

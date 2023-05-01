@@ -20,7 +20,7 @@ export default function ItemDetail() {
                 <div className="itemDetail">
               
                     <div className="pictureAndPrice">
-                    <img src={item.src} alt="img" className="item"></img>
+                    <img src={"../../." + item.src} alt="img" className="item"></img>
                         <div className="pricing">
                             <div className="title">{item.name}</div>
                             <div className="reviews">No reviews yet!</div>

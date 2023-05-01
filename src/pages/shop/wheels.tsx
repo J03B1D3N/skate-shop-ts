@@ -7,7 +7,7 @@ export default function Wheels() {
         <>
         { items.map(item => {
             return item.type === "wheels" ? <Link to={item.name} state={item} className="item">
-                <img src={item.src} alt="img"></img>
+                <img src={"../." + item.src} alt="img"></img>
                 <p className="itemTitle">{item.name}</p>
                      </Link> : null
     })}
