@@ -37,7 +37,7 @@ body{
     position: sticky;
     top: 0px;
     color: white;
-    padding: 0px 25px;
+    padding: 0px 3%;
     a {
       text-decoration: none;
       color: white;
@@ -51,7 +51,8 @@ body{
      .menus {
       display: flex;
       justify-content: space-around;
-      width: 30%;
+      width: fit-content;
+      gap: 5%;
 
       .cart{
         display: flex;
