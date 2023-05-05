@@ -7,7 +7,7 @@ export default function Header() {
         <div className="header">
 
             <div className="title">
-                BOARDS OF BIDEN
+                <Link to="/">BOARDS OF BIDEN</Link>
             </div>
 
             <div className="menus">
