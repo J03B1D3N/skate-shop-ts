@@ -1,7 +1,7 @@
 $deleteBtn: 3rem;
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-.emptyShoppingCart {
+.empty {
     p{
         font-family: 'Luckiest Guy', cursive;
         font-size: 4rem;
@@ -14,11 +14,21 @@ $deleteBtn: 3rem;
     align-items: center;
     text-align: center;
     font-size: 3rem;
-    background-image: url("../../public/images/ShoppingCart.webp");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position:center;
+    .startShopping {
+        font-size: 3rem;
+        padding: 15px;
+        padding-top: 25px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid black;
+        font-family: 'Luckiest Guy', cursive;
+        transition: 0.5s;
+      }
+      .startShopping:hover {
+        background-color: white;
+        color: orange;
+      }
 }
 
 .shoppingCart {
@@ -28,6 +38,9 @@ $deleteBtn: 3rem;
     background-size: cover;
     background-position:center;
     flex: 1; 
+}
+    .full {
+
     display: flex;
     justify-content: flex-start;
     align-items: top;
@@ -102,16 +115,16 @@ $deleteBtn: 3rem;
     }
     .paymentTotal {
         position:   fixed;
-        right: 115px;
-        margin-top: 510px;
+        right: 6%;
+        bottom: 6%;
         background-color: #F6F6F6;
         border: 3px solid black;
         width: 20%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 50px 0px;
-        gap: 20px;
+        padding: 3% 0px;
+        gap: 1rem;
         height: fit-content;
         .title, .price {
             font-size: 3rem;

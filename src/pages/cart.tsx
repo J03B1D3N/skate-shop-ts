@@ -4,6 +4,7 @@ import { CartItem } from "../components/CartItem"
 import "./cart.scss"
 import { formatCurrency } from "../utilities/formatCurrency"
 import { TotalPrice } from "../components/totalPrice"
+import { Link } from "react-router-dom"
 
 export default function Cart() {
     const {cartItems} = useShoppingCart()
@@ -12,7 +13,7 @@ export default function Cart() {
     
 
     return  <>
-                {cartItems.length > 0 ? <div className="shoppingCart">
+                {cartItems.length > 0 ? <div className="shoppingCart full">
                 
                 <div className="centered">
                     {cartItems.map(item => {
@@ -25,7 +26,10 @@ export default function Cart() {
                     <button>CHECKOUT</button>
                 </div>
             </div> : <>
-            <div className="emptyShoppingCart"><p>SHOPPING CART EMPTY</p><p>NO GOOD</p>
+            <div className="shoppingCart empty">
+                <p>SHOPPING CART EMPTY</p>
+                <p>NO GOOD</p>
+            <Link to={"/shop/items/all"}><button className="startShopping">START SHOPPING</button></Link>
             </div>
             </>}
             
