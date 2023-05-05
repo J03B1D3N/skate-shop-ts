@@ -162,7 +162,7 @@ body{
         }
         form {
           border: 5px solid white;
-          height: fit-content;
+          height: 45rem;
           width: 50%;
           display: flex;
           flex-direction: column;
@@ -196,10 +196,16 @@ body{
           }
         }
         .letterSent {
+          flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          gap: 1rem;
+          p {
+            font-family: $font;
+            text-align: center;
+          }
         }
       }
       
