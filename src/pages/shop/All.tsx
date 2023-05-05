@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 import items from "../../data/items.json"
 import React from "react"
+import Bearings from "./bearings";
+import Decks from "./decks";
+import Trucks from "./trucks";
+import Wheels from "./wheels";
 
 
 export default function All() {
 
     return (
             <>
-            { items.map(item => {
-                return <Link to={item.name} state={item} className="item">
-                    <img src={"../." + item.src} alt="img"></img>
-                    <p className="itemTitle">{item.name}</p>
-                         </Link>
-        })}
+            <Bearings></Bearings>
+            <Decks></Decks>
+            <Trucks></Trucks>
+            <Wheels></Wheels>
         </>
     )
 }
