@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/skate-shop-ts/static/css/main.8630d632.css",
-    "main.js": "/skate-shop-ts/static/js/main.81c45180.js",
+    "main.css": "/skate-shop-ts/static/css/main.b15c8b00.css",
+    "main.js": "/skate-shop-ts/static/js/main.1bc76da0.js",
     "static/media/JoeBidenTitle.webp": "/skate-shop-ts/static/media/JoeBidenTitle.4a549ec6b27c31ca5852.webp",
     "static/media/ShoppingCart.webp": "/skate-shop-ts/static/media/ShoppingCart.2b5e6b736f856dc1fde8.webp",
     "static/media/JoeBidenShop.webp": "/skate-shop-ts/static/media/JoeBidenShop.78c1aecf5afc3e12b868.webp",
     "static/media/Contacts.webp": "/skate-shop-ts/static/media/Contacts.00661adce62b4b4f5e55.webp",
     "index.html": "/skate-shop-ts/index.html",
-    "main.8630d632.css.map": "/skate-shop-ts/static/css/main.8630d632.css.map",
-    "main.81c45180.js.map": "/skate-shop-ts/static/js/main.81c45180.js.map"
+    "main.b15c8b00.css.map": "/skate-shop-ts/static/css/main.b15c8b00.css.map",
+    "main.1bc76da0.js.map": "/skate-shop-ts/static/js/main.1bc76da0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8630d632.css",
-    "static/js/main.81c45180.js"
+    "static/css/main.b15c8b00.css",
+    "static/js/main.1bc76da0.js"
   ]
 }
