@@ -1,4 +1,5 @@
 import { useState } from "react"
+import DisplayMap from "../components/map"
 
 export default function Contacts() {
     
@@ -14,7 +15,7 @@ export default function Contacts() {
 
     return <div className="contacts">
         <div className="details">
-            <img className="map" src="./images/maps.webp" alt="map" />
+            <DisplayMap></DisplayMap>
             <div className="wrapper">
                 <div className="phone">
                     <p>Phone: 202-456-1111</p>

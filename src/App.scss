@@ -131,6 +131,11 @@ body{
         align-items:center;
         gap: 5%;
         margin-bottom: 5%;
+        .map {
+          width: 60%;
+          height: 35rem;
+          border-radius: 2rem;
+        }
         .wrapper {
           display: flex;
           flex-direction: column;
